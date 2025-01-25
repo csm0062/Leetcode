@@ -5,4 +5,4 @@ SELECT
     FROM Employees e 
     LEFT JOIN EmployeeUNI uni
         ON e.id = uni.id
-        ORDER BY uni.unique_id;
+        -- ORDER BY uni.unique_id;
